@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #77d1f544;
+}
+.section-padding-80{
+    padding: 80px 0;
+}
+.section-padding{
+    padding: 80px 0;
+}
+
+
+
+
+/*======================== carousel ======================*/
+
+
+.carousel-item img{
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+.carousel-item::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(15, 15, 15);
+    z-index: 1;
+    opacity: .4;
+}
+
+.carousel-caption{
+    z-index: 2;
+    top: 40%;
+}
+.carousel-caption h5{
+    font-size: 60px;
+    color: #fff;
+}
+.carousel-caption p{
+    font-size: 20px;
+    color: #fff;
+}
+
+h3 {
+    font-size: 32px;
+    color: black;
+    padding: 10px 0;
+    text-transform: capitalize;
+}
+.pdb-40{
+    padding-bottom: 40px;
+}
+
+
+/*========================== about-section ==========================*/
+
+
+.about-image img {
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+}
+.about-text {
+    padding: 40px;
+}
+.about-text h3 {
+    font-size: 32px;
+    text-transform: capitalize;
+    color: black;
+    padding: 20px 0;
+}
+.about-text p {
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+}
+.service-details {
+    background: rgb(41 33 33);
+    color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+.service-details {
+    background: rgb(41 33 33);
+    padding: 36px;
+}
+.service-details span.material-symbols-outlined {
+    font-size: 50px;
+    color: #d9d9d9;
+}
+.service-details h4{
+    font-size: 24px;
+    text-transform: capitalize;
+    padding: 10px 0;
+    color: #d9d9d9;
+}
+.service-details p{
+    font-size: 18px;
+    color: #d9d9d9;
+}
+.service-tittle p {
+    width: 300px;
+    margin: auto;
+}
+
+
+
+/*======================== project-section ========================*/
+
+.project-box{
+    background-color: #d9d9d9;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+.project-details img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.project-details h4{
+    font-size: 24px;
+    text-transform: capitalize;
+    padding: 10px 0;
+    color: black;
+}
+.project-text {
+    padding: 20px 0;
+}
+
+
+/*===================== team-section ======================*/
+
+
+.team-box{
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+.team-box .team-details img{
+    width: 100px;
+    border-radius: 50%;
+}
+.team-box .team-details h4{
+    color: black;
+    font-size: 24px;
+    padding: 20px 0 10px;
+}
+.team-box .team-details p{
+    font-size: 18px;
+    color: black;
+}
+.team-details .social-icon i{
+    font-size: 22px;
+    color: black;
+    margin: 0 5px;
+    transition: .4s;
+    border-radius: 50%;
+}
+.team-details .social-icon i:hover{
+    color: #d9d9d9;
+}
+
+
+/*========================== contact-section ===========================*/
+
+
+
+.contact-form button{
+    width: 100%;
+    margin: 20px 0;
+    font-size: 20px;
+    padding: 10px;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    outline: none;
+    border: 2px solid #d5d5d5;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 6px;
+}
+.contact-form textarea {
+    max-height: 100px;
+    min-height: 100px;
+}
+
+
+/*============================= cta-section =============================*/
+
+
+.cta-section{
+    background: black;
+}
+.cta-section p{
+    color: #adabab;
+    font-size: 18px;
+    margin: 0!important;
+    padding: 20px;
+}
